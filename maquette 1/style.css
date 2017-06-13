@@ -1,0 +1,174 @@
+html {
+	font-size: 1vw;/*0.875rem;*/
+}
+body {
+	background: url(img/bg-body.png) no-repeat;
+	background-position: 50% 0; 
+	background-size: cover;
+	
+}
+
+
+header {
+	text-align:center;
+	
+}
+
+a {
+	color: white;
+}
+
+h1 {
+	margin-bottom: 1.5em;
+	text-shadow: 0.07em 0.07em #cfcfcf;
+}
+
+h2 {
+	margin-bottom: 1em;
+}
+
+h3:first-child {
+	margin-top: 0;
+}
+
+h4 {
+	margin-top: 1.0em;
+	margin-bottom: 1.0em;
+}
+
+p:first-child{
+	margin-top: 0;
+}
+
+table {
+	border-spacing: 0;
+	
+}
+td {
+
+	padding-bottom: 1.0em;
+	
+}
+td.col2 {
+	padding-left: 0.7rem;
+}
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75rem;
+	line-height: 1.33;
+	color: #f1f1f1;
+	margin-top: 5.0rem;
+}
+
+
+.logo {
+	margin-bottom: 3%;
+}
+
+.menu {
+	display: block;
+	margin-bottom: 1.5em;
+}
+
+.menu_entry {
+	display: inline-block;  /*display and width - тобы помещались равномерно в наверху контейнера */
+	width: 19%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* .wrapper - за этой областью не должно быть содержимого */
+.wrapper { 
+	width: 50%;
+	margin: auto;
+}
+
+
+.main-wrapper {
+	border-radius: 0.625em;
+	background-color: #f3f3f3;
+	color: #0e4d66;
+	font-family: Tahoma, Geneva, sans-serif;
+	box-shadow: 0.4rem 0.4rem 0.2rem;
+	border
+
+}
+
+.main {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.brief-summary {
+	
+}
+
+.brief-summary>img {
+	float: left;
+	max-width: 100%; /*заставляет картинку всегда вмещаться в контейнер */
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+}
+
+
+.contacts {
+	margin-top: 26px;
+	clear: both;
+}
+
+.gold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 1.25;
+	color: #f2b01c;
+}
+
+/* classes for footer */
+.right > img {
+	padding-top: 0.5em;
+	padding-right: 0.8em;
+}
+
+.left {
+	float: left;
+	padding-bottom: 1em;
+	
+}
+
+.right {
+	float: right;
+	padding-bottom: 1em;
+}
+
+
+@media (max-width: 1200px) and (min-width: 800px) {
+	.wrapper {
+		width: 70%;
+		margin: auto;
+ 	}
+ 	html {
+ 		font-size: calc(0.5em + 1vw);
+ 	}
+
+}
+@media (max-width: 800px) {
+	.wrapper {
+		width: 100%;
+		margin: auto;
+ 	}
+ 	html {
+ 		font-size: calc(0.5em + 1vw);
+ 	}
+
+}
+
+
+
+
+
